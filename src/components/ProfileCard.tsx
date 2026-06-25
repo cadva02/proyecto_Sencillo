@@ -1,9 +1,9 @@
 import React from 'react';
 
 interface Props {
-  name: string;
-  email: string;
-  status: string;
+  readonly name: string;
+  readonly email: string;
+  readonly status: string;
 }
 
 export default function ProfileCard({ name, email, status }: Props) {
